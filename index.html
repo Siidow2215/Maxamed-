@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electricity Billing System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Electricity Billing System</h2>
+
+  <form id="billForm">
+    <input type="text" id="name" placeholder="Customer Name">
+    <input type="text" id="meter" placeholder="Meter Number">
+    <input type="number" id="units" placeholder="Units Consumed">
+    <button type="submit">Add Bill</button>
+  </form>
+
+  <p id="message"></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Meter</th>
+        <th>Units</th>
+        <th>Bill ($)</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="billList"></tbody>
+  </table>
+
+  <div class="summary">
+    <p>Total Customers: <span id="totalCustomers">0</span></p>
+    <p>Total Revenue: $<span id="totalRevenue">0</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

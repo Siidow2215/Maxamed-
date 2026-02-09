@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #eef2f3;
+}
+
+.container {
+  width: 700px;
+  background: #fff;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+form input {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+#message {
+  color: red;
+  margin-top: 10px;
+}
+
+.summary {
+  margin-top: 20px;
+  font-weight: bold;
+}
